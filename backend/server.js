@@ -30,9 +30,7 @@ if (process.env.NODE_ENV !== "production") {
 app.use(express.json({ limit: "5mb" })); // parse JSON request bodies
 app.use(cookieParser());
 
-app.get('/',(req,res)=>{
-res.json('helo')
-})
+
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/posts", postRoutes);
