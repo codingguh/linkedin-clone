@@ -1,6 +1,5 @@
 <h1 align="center">Linkedin Clone ✨</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
 
 ![Demo App](/screenshoots/linkedin-clone-1.png)
 
